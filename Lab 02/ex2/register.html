@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <title>
+   Register - Computer Science Department
+  </title>
+ </head>
+ <body class="site-body">
+  <header class="site-header">
+   <h1 class="site-title">
+    School of Computer Science and Engineering
+   </h1>
+   <h2 class="site-subtitle">
+    Computer Science Department
+   </h2>
+   <nav class="site-nav">
+    <ul class="nav-list">
+     <li class="nav-item">
+      <a class="nav-link" href="index.html">
+       Home
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="courses.html">
+       Course Catalog
+      </a>
+     </li>
+     <li class="nav-item">
+      <span aria-current="page" class="nav-link nav-link--active">
+       Register
+      </span>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="site-main">
+   <h2 class="page-title">
+    Course Registration Form
+   </h2>
+   <form action="confirmation.html" class="registration-form" method="GET">
+    <section class="content-section form-section">
+     <h3>
+      Student Information
+     </h3>
+     <p>
+      <label class="form-label is-required" for="name">
+       Full Name:
+      </label>
+      <input class="form-control" id="name" name="name" required="" type="text"/>
+     </p>
+     <p>
+      <label class="form-label is-required" for="student-id">
+       Student ID:
+      </label>
+      <input class="form-control" id="student-id" name="student-id" required="" type="text"/>
+     </p>
+     <p>
+      <label class="form-label is-required" for="email">
+       Email:
+      </label>
+      <input class="form-control" id="email" name="email" required="" type="email"/>
+     </p>
+    </section>
+    <section class="content-section form-section">
+     <h3>
+      Course Selection
+     </h3>
+     <div class="table-container">
+      <table class="course-selection-table">
+       <caption>
+        Select the courses you want to register for
+       </caption>
+       <thead>
+        <tr>
+         <th>
+          Select
+         </th>
+         <th>
+          Course ID
+         </th>
+         <th>
+          Course Name
+         </th>
+         <th>
+          Time
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          <input class="form-check" id="cs301" name="course" type="checkbox" value="CS301"/>
+          <label class="form-label checkbox-label" for="cs301">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs301.html">
+           CS301
+          </a>
+         </td>
+         <td>
+          Web Application Development
+         </td>
+         <td>
+          Monday / Wednesday 10:00 - 11:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs302" name="course" type="checkbox" value="CS302"/>
+          <label class="form-label checkbox-label" for="cs302">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs302.html">
+           CS302
+          </a>
+         </td>
+         <td>
+          Data Structures and Algorithms
+         </td>
+         <td>
+          Tuesday / Thursday 08:00 - 10:00
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs303" name="course" type="checkbox" value="CS303"/>
+          <label class="form-label checkbox-label" for="cs303">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs303.html">
+           CS303
+          </a>
+         </td>
+         <td>
+          Database Systems
+         </td>
+         <td>
+          Tuesday / Thursday 10:00 - 11:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs304" name="course" type="checkbox" value="CS304"/>
+          <label class="form-label checkbox-label" for="cs304">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs304.html">
+           CS304
+          </a>
+         </td>
+         <td>
+          Computer Networks
+         </td>
+         <td>
+          Monday / Wednesday 13:00 - 14:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs305" name="course" type="checkbox" value="CS305"/>
+          <label class="form-label checkbox-label" for="cs305">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs305.html">
+           CS305
+          </a>
+         </td>
+         <td>
+          Information Security
+         </td>
+         <td>
+          Monday / Wednesday 15:00 - 16:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs306" name="course" type="checkbox" value="CS306"/>
+          <label class="form-label checkbox-label" for="cs306">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs306.html">
+           CS306
+          </a>
+         </td>
+         <td>
+          Artificial Intelligence
+         </td>
+         <td>
+          Tuesday / Thursday 13:00 - 14:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs307" name="course" type="checkbox" value="CS307"/>
+          <label class="form-label checkbox-label" for="cs307">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs307.html">
+           CS307
+          </a>
+         </td>
+         <td>
+          Software Engineering
+         </td>
+         <td>
+          Tuesday / Thursday 15:00 - 16:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs308" name="course" type="checkbox" value="CS308"/>
+          <label class="form-label checkbox-label" for="cs308">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs308.html">
+           CS308
+          </a>
+         </td>
+         <td>
+          Operating Systems
+         </td>
+         <td>
+          Friday 08:00 - 11:00
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs309" name="course" type="checkbox" value="CS309"/>
+          <label class="form-label checkbox-label" for="cs309">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs309.html">
+           CS309
+          </a>
+         </td>
+         <td>
+          Computer Graphics
+         </td>
+         <td>
+          Wednesday / Friday 08:00 - 09:30
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input class="form-check" id="cs310" name="course" type="checkbox" value="CS310"/>
+          <label class="form-label checkbox-label" for="cs310">
+           Select
+          </label>
+         </td>
+         <td>
+          <a href="cs310.html">
+           CS310
+          </a>
+         </td>
+         <td>
+          Mobile Application Development
+         </td>
+         <td>
+          Monday / Wednesday 08:00 - 09:30
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </section>
+    <section class="content-section form-section">
+     <h3>
+      Semester and Academic Year
+     </h3>
+     <p>
+      <label class="form-label is-required" for="semester">
+       Semester:
+      </label>
+      <select class="form-control" id="semester" name="semester" required="">
+       <option value="">
+        -- Select Semester --
+       </option>
+       <option value="Fall">
+        Fall
+       </option>
+       <option value="Spring">
+        Spring
+       </option>
+       <option value="Summer">
+        Summer
+       </option>
+      </select>
+     </p>
+     <p>
+      <label class="form-label is-required" for="year">
+       Academic Year:
+      </label>
+      <select class="form-control" id="year" name="year" required="">
+       <option value="">
+        -- Select Year --
+       </option>
+       <option value="2026">
+        2026
+       </option>
+       <option value="2027">
+        2027
+       </option>
+       <option value="2028">
+        2028
+       </option>
+      </select>
+     </p>
+    </section>
+    <section class="content-section form-section">
+     <h3>
+      Comments / Special Requests
+     </h3>
+     <p>
+      <label class="form-label" for="comments">
+       Comments:
+      </label>
+      <br/>
+      <textarea class="form-control" cols="40" id="comments" name="comments" rows="5"></textarea>
+     </p>
+    </section>
+    <p>
+     <button class="button button--primary" type="submit">
+      Submit Registration
+     </button>
+    </p>
+   </form>
+  </main>
+  <footer class="site-footer">
+   <p class="site-footer__text">
+    &copy; 2026 VNUHCM | HCMIU | CSE
+   </p>
+  </footer>
+ </body>
+</html>
